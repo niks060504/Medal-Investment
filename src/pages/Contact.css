@@ -1,0 +1,97 @@
+.contact-section {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    padding: 60px 20px;
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+  
+  .section-title {
+    color: #d4af37;
+    font-size: 2.5rem;
+    animation: fadeInDown 1s ease-out forwards;
+  }
+  
+  .contact-form {
+    max-width: 500px;
+    animation: fadeInUp 1.2s ease-out forwards;
+  }
+  
+  .contact-info {
+    margin-top: 40px;
+    animation: fadeIn 1.5s ease-out forwards;
+  }
+  
+  .info-title {
+    color: #d4af37;
+    font-size: 1.5rem;
+  }
+  
+  .whatsapp-icon {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .qr-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    animation: floatQR 4s ease-in-out infinite;
+  }
+  
+  .qr-code {
+    width: 180px;
+    height: 180px;
+    border: 5px solid #d4af37;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .address-text {
+    color: #ffffff;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  /* Animations */
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes floatQR {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  

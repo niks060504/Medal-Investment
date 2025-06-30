@@ -1,0 +1,26 @@
+body {
+  background-color: white;
+  color: #1e1e2f;
+  font-family: Arial, sans-serif;
+}
+
+.bg-royal {
+  background-color: #002366 !important;
+}
+
+.text-golden {
+  color: #DAA520;
+}
+
+.btn-golden {
+  background-color: #DAA520;
+  color: white;
+}
+
+.btn-golden:hover {
+  background-color: #c1911d;
+}
+
+.section {
+  padding: 60px 20px;
+}

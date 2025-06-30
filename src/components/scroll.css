@@ -1,0 +1,24 @@
+.partner-scroll-wrapper {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .partner-scroll {
+    display: flex;
+    animation: scrollLeft 60s linear infinite;
+    width: max-content;
+    gap: 2rem;
+  }
+  
+  @keyframes scrollLeft {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  .text-golden {
+    color: #b8860b; /* Or your theme's golden color */
+  }
+    

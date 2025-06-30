@@ -1,0 +1,61 @@
+.custom-navbar {
+    background-color: #c8ac7d !important;
+    padding: 0 !important;
+  }
+  
+  .fullscreen-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1050;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem 3rem;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 3rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .fullscreen-nav {
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+  }
+  
+  .fullscreen-nav li {
+    margin: 1rem 0;
+  }
+  
+  .fullscreen-nav a {
+    color: #d4af37;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-family: 'Cinzel', serif;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .fullscreen-nav a:hover {
+    transform: scale(1.1);
+    color: #fff;
+  }

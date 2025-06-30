@@ -1,0 +1,86 @@
+/* General hover effect for images */
+.hover-scale:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Section styling */
+ .section {
+  font-family: 'Playfair Display', Georgia, serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  padding: 60px 20px;
+  }
+
+  .text-golden {
+    color: #d4af37;
+  }
+  
+  .about-item {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Financial services section */
+  .financial-img {
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #d4af37;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .financial-item-text {
+    font-size: 1.15rem;
+    line-height: 1.85;
+  }
+  
+  /* Partner logos section */
+  .partner-scroll-wrapper {
+    overflow: hidden;
+    padding: 3rem 0;
+  }
+  
+  .partner-scroll {
+    display: flex;
+    gap: 4rem;
+    width: max-content;
+  }
+  
+  .partner-scroll img {
+    width: 100px;
+    height: 60px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Financial Points section */
+  .financial-point-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+  
+  .financial-point-item-reverse {
+    flex-direction: column-reverse;
+  }
+  
+  .financial-point-img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #d4af37;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Disclaimer Section */
+  .disclaimer-text {
+    font-size: 1rem;
+    line-height: 1.8;
+    text-align: justify;
+  }
+  
