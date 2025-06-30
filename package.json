@@ -1,5 +1,7 @@
 {
   "homepage": "https://kunalkumaramar.github.io/MedalInvestment/",
+   "homepage": "/MedalInvestment",
+  "homepage": ".",
   "name": "funds",
   "version": "0.1.0",
   "private": true,
